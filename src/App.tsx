@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import photo from './placeholder_photo.jpeg'
 import './App.css';
 
 function App() {
@@ -7,13 +7,17 @@ function App() {
     <div className="App">
       <h1>page title</h1>
 
-      <section className='blurb'>
-        <h2>Karen He</h2>
-        <blockquote>
-          I'm a software engineer based in the San Francisco Bay Area. 
-          I have a passion for helping the world through software and accessibility. 
-        </blockquote>
-        <img src={logo} alt='Karen headshot'/>
+      <section className='summary'>
+        <div className='summary-text'>
+          <h2>Karen He</h2>
+          <p className='blurb'>
+            I'm a software engineer based in the San Francisco Bay Area. 
+            I have a passion for helping the world through software and accessibility. 
+          </p>
+        </div>
+        <div className='headshot'>
+          <img src={photo} id='photo' alt='Karen headshot'/>
+        </div>
       </section>
 
       <section className='skills'>

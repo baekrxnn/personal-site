@@ -1,3 +1,31 @@
 .App {
-  padding: 10%;
+  padding: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
+
+  .summary {
+    display: flex;
+    align-items: center;
+    
+    .summary-text {
+      width: 50%;
+    }
+
+    .headshot {
+      width: 50%;
+      text-align: center;
+
+      #photo {
+        width: 50%;
+        border-radius: 50%;
+      }
+    }
+  }
+  
+  
+}
+
+section {
+  border-bottom: 1px gray solid;
+  height: 50vh;
 }
