@@ -5,20 +5,29 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>page title</h1>
+
+      <section className='blurb'>
+        <h2>Karen He</h2>
+        <blockquote>
+          I'm a software engineer based in the San Francisco Bay Area. 
+          I have a passion for helping the world through software and accessibility. 
+        </blockquote>
+        <img src={logo} alt='Karen headshot'/>
+      </section>
+
+      <section className='skills'>
+        <h2>Skills</h2>
+        <p>to be filled</p>
+      </section>
+
+      <section className='contact'>
+        <h2>Contact</h2>
+        <a href='www.github.com/baekrxnn'>GitHub</a>
+        <a href='https://www.linkedin.com/in/karen18he/'>LinkedIn</a>
+      </section>
+
+
     </div>
   );
 }
