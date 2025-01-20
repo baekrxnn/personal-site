@@ -5,11 +5,18 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>page title</h1>
 
-      <section className='summary'>
+      <header>
+        <nav className='navbar'>
+          <a href='#home'>Home</a>
+          <a href='#about'>About</a>
+          <a href='#contact'>Contact</a>
+        </nav>
+      </header>
+
+      <section className='home' id='home'>
         <div className='summary-text'>
-          <h2>Karen He</h2>
+          <h1>Karen He</h1>
           <p className='blurb'>
             I'm a software engineer based in the San Francisco Bay Area. 
             I have a passion for helping the world through software and accessibility. 
@@ -25,12 +32,20 @@ function App() {
         <p>to be filled</p>
       </section>
 
-      <section className='contact'>
+      <section id='about'>
+        <h2>About Me</h2>
+        <h2>Outside of Work</h2>
+      </section>
+
+      <section className='contact' id='contact'>
         <h2>Contact</h2>
         <a href='www.github.com/baekrxnn'>GitHub</a>
         <a href='https://www.linkedin.com/in/karen18he/'>LinkedIn</a>
       </section>
 
+      <footer>
+        <p>this is the footer</p>
+      </footer>
 
     </div>
   );

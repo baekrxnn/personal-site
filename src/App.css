@@ -26,8 +26,23 @@ h3 {
   font-size: var(--font-size-h3);
 }
 
-p {
+p, a {
   font-size: var(--font-size-default);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  
+  .navbar {
+    width: fit-content;
+    padding: 24px 48px;
+    border-radius: 50px;
+    display: flex;
+    gap: 32px;
+    border: 1px solid black;
+  }
+
 }
 
 .App {
@@ -38,7 +53,7 @@ p {
   background-color: var(--background-color);
   min-height: 100vh;
 
-  .summary {
+  .home {
     display: flex;
     align-items: center;
     
@@ -63,4 +78,8 @@ p {
 section {
   border-bottom: 1px gray solid;
   height: 50vh;
+}
+
+footer {
+  text-align: center;
 }
