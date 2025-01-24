@@ -1,4 +1,5 @@
 import photo from './placeholder_photo.jpeg';
+import './home.css';
 
 const home = () => {
   return (

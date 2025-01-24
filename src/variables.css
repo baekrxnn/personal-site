@@ -16,6 +16,11 @@
   --font-default: "Nunito", serif;
 }
 
+section {
+  border-bottom: 1px gray solid;
+  height: 50vh;
+}
+
 h1 {
   font-size: var(--font-size-h1);
   font-family: var(--font-headings);

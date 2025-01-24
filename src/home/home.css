@@ -1,0 +1,23 @@
+.home {
+  display: flex;
+  align-items: center;
+  
+  .summary-text {
+    width: 50%;
+
+    #highlight_swe {
+      color: var(--text-secondary-small);
+      display: inline;
+    }
+  }
+
+  .headshot {
+    width: 50%;
+    text-align: center;
+
+    #photo {
+      width: 50%;
+      border-radius: 50%;
+    }
+  }
+}
