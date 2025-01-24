@@ -1,31 +1,14 @@
-import React from 'react';
-import photo from './placeholder_photo.jpeg'
+import home from './home';
+import header from './header/header';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <nav className='navbar'>
-          <a href='#home'>Home</a>
-          <a href='#about'>About</a>
-          <a href='#contact'>Contact</a>
-        </nav>
-      </header>
+      {header()}
 
       <div className='content'>
-        <section className='home' id='home'>
-          <div className='summary-text'>
-            <h1>Karen He</h1>
-            <p className='blurb'>
-              I'm a <span id='highlight_swe'>software engineer</span> based in the San Francisco Bay Area. 
-              I have a passion for helping the world through software and accessibility. 
-            </p>
-          </div>
-          <div className='headshot'>
-            <img src={photo} id='photo' alt='Karen headshot'/>
-          </div>
-        </section>
+        {home()}
 
         <section className='skills'>
           <h2>Skills</h2>
@@ -34,7 +17,8 @@ function App() {
 
         <section id='about'>
           <h2>About Me</h2>
-          <h2>Outside of Work</h2>
+          <h3>Outside of Work</h3>
+          <p>this is a p tag</p>
         </section>
 
         <section className='contact' id='contact'>

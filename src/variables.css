@@ -1,0 +1,46 @@
+:root {
+  --text-primary: #000000;
+  --text-secondary: #df2020;
+  --text-secondary-small: #A0001C;
+  --background-color: #ffffff;
+  
+  --background-color-night: #004466;
+  --text-primary-night: #e9e3dc;
+
+  --font-size-h1: 48px;
+  --font-size-h2: 36px;
+  --font-size-h3: 24px;
+  --font-size-default: 18px;
+
+  --font-headings: "Roboto", serif;
+  --font-default: "Nunito", serif;
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+  font-family: var(--font-headings);
+}
+
+h2 {
+  color: var(--text-secondary);
+  font-size: var(--font-size-h2);
+  font-family: var(--font-headings);
+  font-style: normal;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: var(--font-size-h3);
+  font-family: var(--font-headings);
+}
+
+p {
+  font-size: var(--font-size-default);
+  font-family: var(--font-default);
+}
+
+a {
+  font-size: var(--font-size-default);
+  font-family: var(--font-default);
+  color: var(--text-secondary-small);
+}
