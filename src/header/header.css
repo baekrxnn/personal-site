@@ -1,20 +1,22 @@
 @import url("../variables.css");
 
-header {
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  width: 100%;
-  padding: 5% 0;
-  z-index: 100;
-  
-  .navbar {
-    width: fit-content;
-    padding: 24px 48px;
-    border-radius: 50px;
+@media screen and (min-width: 800px) {
+  header {
     display: flex;
-    gap: 32px;
-    border: 1px solid gray;
-    background-color: var(--background-color);
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    padding: 5% 0;
+    z-index: 100;
+    
+    .navbar {
+      width: fit-content;
+      padding: 24px 48px;
+      border-radius: 50px;
+      display: flex;
+      gap: 32px;
+      border: 1px solid gray;
+      background-color: var(--background-color);
+    }
   }
 }

@@ -14,11 +14,15 @@
 
   --font-headings: "Roboto", serif;
   --font-default: "Nunito", serif;
+
+  --screen-size-small: 800px;
 }
 
 section {
   border-bottom: 1px gray solid;
   height: 50vh;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 h1 {
