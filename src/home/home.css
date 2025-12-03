@@ -8,13 +8,12 @@
   }
 
   .headshot {
-    visibility: hidden;
+    display: none;
     width: 0%;
   }
 }
 
 @media screen and (min-width: 800px) {
-
   .home {
     display: flex;
     align-items: center;

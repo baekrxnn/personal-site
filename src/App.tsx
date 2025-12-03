@@ -47,8 +47,10 @@ function App() {
 
         <section className='contact' id='contact'>
           <h2>Contact</h2>
-          You can connect with me on <a href='https://www.linkedin.com/in/karen18he/'>LinkedIn</a>,
-           or check out my projects on <a href='www.github.com/baekrxnn'>GitHub</a>!
+          <p>
+            You can connect with me on <a target='_blank' href='https://www.linkedin.com/in/karen18he/' rel="noreferrer">LinkedIn</a>, 
+            or check out my projects on <a target='_blank' href='https://github.com/baekrxnn' rel="noreferrer">GitHub</a>!
+          </p>
         </section>
       </div>
 

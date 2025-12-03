@@ -20,9 +20,14 @@
 
 section {
   border-bottom: 1px gray solid;
-  height: 50vh;
   padding-left: 10%;
   padding-right: 10%;
+}
+
+@media (min-width:900px) {
+  section {
+    height: 50vh;
+  }
 }
 
 h1 {
