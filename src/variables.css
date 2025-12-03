@@ -43,7 +43,7 @@ h3 {
   font-family: var(--font-headings);
 }
 
-p {
+p, li {
   font-size: var(--font-size-default);
   font-family: var(--font-default);
 }

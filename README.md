@@ -19,7 +19,7 @@ Skills practiced:
 
 ## TODO
 - [ ] Responsive design for mobile
-- [ ] Add skills / projects section
+- [ ] only show menu icon on mobile
 - [ ] Support for keyboard navigation
 
 ## Changes from 2.0
